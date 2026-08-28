@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Cell UIET Kurukshetra — Entrepreneurship Cell</title>
+  <meta name="description" content="Official website of the Entrepreneurship Cell (E-Cell) of UIET Kurukshetra University. Fostering innovation, startups, and entrepreneurial mindset.">
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="scene-bg"></div>
+  <canvas id="particles"></canvas>
+  <div class="grain"></div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="brand-logo-container">
+      <img src="logo.png" alt="E-Cell UIET KUK Logo" class="ecell-logo-img">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#join">Join Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#join" class="nav-cta">Join E-Cell</a>
+    <button id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div id="mobile-menu">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#team">Team</a>
+    <a href="#join">Join Us</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text-block">
+        <div class="hero-kicker">UIET Kurukshetra University</div>
+        <h1 class="hero-name">ENTREPRENEURSHIP <span>CELL</span></h1>
+        <div class="hero-role">Innovate <span class="sep">/</span> Ideate <span class="sep">/</span> Incubate</div>
+        <p class="hero-line">Empowering student innovators, fostering startup culture, and transforming campus ideas into real-world business enterprises.</p>
+        <div class="hero-actions">
+          <a href="#join" class="btn btn-solid">Become a Member</a>
+          <a href="#events" class="btn btn-ghost">Explore Events</a>
+        </div>
+      </div>
+      
+      <div class="hero-logo-box">
+        <img src="logo.png" alt="E-Cell UIET KUK Main Logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="wrap">
+      <div class="eyebrow">01 · Who We Are</div>
+      <h2 class="sec-title reveal">Fostering <em>Innovation</em> at UIET</h2>
+      <div class="grid">
+        <div class="reveal">
+          <p>The Entrepreneurship Cell (E-Cell) of University Institute of Engineering &amp; Technology (UIET), Kurukshetra University, is a student-driven organization dedicated to nurturing the spirit of entrepreneurship among students.</p>
+          <p>We provide a platform for aspiring founders to turn innovative ideas into successful ventures through interactive workshops, mentorship programs, hackathons, and guest lectures from industry veterans.</p>
+        </div>
+        <div class="reveal">
+          <dl class="facts">
+            <div class="fact"><dt>Institute</dt><dd>UIET, Kurukshetra University</dd></div>
+            <div class="fact"><dt>Vision</dt><dd>Building an ecosystem for student founders &amp; innovators</dd></div>
+            <div class="fact"><dt>Focus</dt><dd>Startups, Incubation, Tech Innovation, Skill Building</dd></div>
+            <div class="fact"><dt>Location</dt><dd>Kurukshetra, Haryana, India</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="initiatives-grid reveal">
+        <div class="initiative-card">
+          <h4>Mentorship &amp; Guidance</h4>
+          <p>Direct access to alumni, startup founders, and industry leaders who help refine business models.</p>
+        </div>
+        <div class="initiative-card">
+          <h4>Incubation Support</h4>
+          <p>Assistance with prototype building, pitch deck creation, and connect with seed funding networks.</p>
+        </div>
+        <div class="initiative-card">
+          <h4>Workshops &amp; Bootcamps</h4>
+          <p>Practical sessions covering Business Analytics, Product Design, AI tools, and Pitching Skills.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPCOMING EVENTS -->
+  <section id="events">
+    <div class="wrap">
+      <div class="eyebrow">02 · What's Happening</div>
+      <h2 class="sec-title reveal">Upcoming <em>Events</em> &amp; Flagships</h2>
+      <p class="lede reveal">Participate in our signature competitions, summit talks, and hands-on startup workshops.</p>
+
+      <div class="events-grid reveal">
+        <div class="event-card">
+          <div>
+            <span class="event-tag">Hackathon</span>
+            <h3>E-Summit PitchFest</h3>
+            <span class="event-date mono">OCTOBER 15-16, 2026</span>
+            <p>Present your startup pitch to angel investors and industry experts. Win cash prizes and incubation support.</p>
+          </div>
+          <a href="#join" class="btn btn-ghost">Register Now</a>
+        </div>
+
+        <div class="event-card">
+          <div>
+            <span class="event-tag">Workshop</span>
+            <h3>AI &amp; Product Management</h3>
+            <span class="event-date mono">SEPTEMBER 20, 2026</span>
+            <p>A hands-on bootcamp on leveraging Generative AI and modern web tools to build Minimum Viable Products (MVPs).</p>
+          </div>
+          <a href="#join" class="btn btn-ghost">Register Now</a>
+        </div>
+
+        <div class="event-card">
+          <div>
+            <span class="event-tag">Speaker Session</span>
+            <h3>Founder's Unplugged</h3>
+            <span class="event-date mono">SEPTEMBER 05, 2026</span>
+            <p>Interactive fireside chat with successful UIET alumni founders sharing their journey from college to valuation.</p>
+          </div>
+          <a href="#join" class="btn btn-ghost">Register Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM SECTION -->
+  <section id="team">
+    <div class="wrap">
+      <div class="eyebrow">03 · The Leadership</div>
+      <h2 class="sec-title reveal">Meet the <em>Team</em></h2>
+      <p class="lede reveal">The student leaders driving the entrepreneurial movement at UIET Kurukshetra.</p>
+
+      <div class="team-grid reveal">
+        <div class="team-card">
+          <div class="team-avatar-box">
+            <img src="logo.png" alt="Team Lead Logo" class="team-logo-avatar">
+          </div>
+          <h4>Overall Coordinator</h4>
+          <span class="team-role">Head Student Lead</span>
+          <span class="team-branch">CSE, UIET Kurukshetra</span>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar-box">
+            <img src="logo.png" alt="Team Lead Logo" class="team-logo-avatar">
+          </div>
+          <h4>Events &amp; Operations Lead</h4>
+          <span class="team-role">Head of Management</span>
+          <span class="team-branch">ECE, UIET Kurukshetra</span>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar-box">
+            <img src="logo.png" alt="Team Lead Logo" class="team-logo-avatar">
+          </div>
+          <h4>Corporate Relations Lead</h4>
+          <span class="team-role">Outreach &amp; Sponsorships</span>
+          <span class="team-branch">ME, UIET Kurukshetra</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN US SECTION -->
+  <section id="join">
+    <div class="wrap">
+      <div class="eyebrow">04 · Become Part of E-Cell</div>
+      <div class="panel reveal">
+        <div>
+          <h3>Ready to shape the future of startups?</h3>
+          <p>Join E-Cell UIET as a team member or student coordinator. Gain experience in leadership, web development, event management, and business strategy.</p>
+        </div>
+        <a href="#contact" class="btn btn-solid">Apply for Membership</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="eyebrow">05 · Get In Touch</div>
+      <h2 class="sec-title reveal">Reach out to <em>E-Cell</em></h2>
+      
+      <div class="grid reveal">
+        <div>
+          <p>Have an idea, want to collaborate, or have questions about upcoming events? Send us a message or visit our cell at UIET campus.</p>
+          <div class="contact-links">
+            <div class="contact-link">
+              <span class="lbl">Email</span>
+              <a href="mailto:ecell@uietkuk.ac.in" class="val">ecell@uietkuk.ac.in</a>
+            </div>
+            <div class="contact-link">
+              <span class="lbl">Location</span>
+              <span class="val">UIET, Kurukshetra University, Haryana</span>
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm">
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required placeholder="John Doe">
+          </div>
+          <div class="field">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" required placeholder="john@example.com">
+          </div>
+          <div class="field">
+            <label for="message">Message / Idea Query</label>
+            <textarea id="message" required placeholder="Tell us how you'd like to collaborate..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-solid">Send Message</button>
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 E-Cell UIET Kurukshetra. All Rights Reserved.</p>
+    <p class="mono">Driven by Innovation &amp; Passion</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
