@@ -19,13 +19,3 @@ The goal was to build something clean, fast, and modern that showcases our upcom
 - **Contact & Footer (`05`):** Campus location, official email (`ecell@uietkuk.ac.in`), and social connections.
 
 ---
-
-##  Tech Stack & Tools
-
-- **HTML5:** Semantic structure for optimal accessibility and SEO.
-- **CSS3:** Custom responsive layout, modern typography, glassmorphism card styles, and mobile navigation.
-- **JavaScript (Vanilla JS / Canvas):** Interactive background effects and smooth scrolling navigation.
-- **Google Fonts:** Clean modern typography matching the startup aesthetic.
-- **GitHub Pages:** Hosting and automated deployment directly from the `main` branch.
-
----
